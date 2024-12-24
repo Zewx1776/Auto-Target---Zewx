@@ -1,0 +1,2 @@
+Build failed:
+[12/24/2024 12:46:50 PM, C:\Users\Zewx\Desktop\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\Plugins\Source\WhereAreYouGoing-PoE2-zewx\WhereAreYouGoing.cs(804, 78)] CS1503: Argument 1: cannot convert from 'System.Numerics.Vector2' to 'System.Numerics.Vector3'

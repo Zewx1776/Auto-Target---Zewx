@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "i7/c6uk1tE0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\WhereAreYouGoing-PoE2-zewx\\WhereAreYouGoing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zewx\\.nuget\\packages\\imgui.net\\1.90.0.1\\imgui.net.1.90.0.1.nupkg.sha512",
+    "C:\\Users\\Zewx\\.nuget\\packages\\jm.linqfaster\\1.1.2\\jm.linqfaster.1.1.2.nupkg.sha512",
+    "C:\\Users\\Zewx\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Zewx\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Zewx\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Zewx\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Zewx\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
