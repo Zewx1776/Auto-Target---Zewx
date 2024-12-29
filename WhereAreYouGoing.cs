@@ -710,7 +710,7 @@ public class WhereAreYouGoing : BaseSettingsPlugin<WhereAreYouGoingSettings>
 
         foreach (var entity in GameController.EntityListWrapper.ValidEntitiesByType[EntityType.Monster])
         {
-            if (!entity.IsAlive || !entity.IsHostile || !entity.IsTargetable)
+            if (!entity.IsAlive || !entity.IsTargetable)
                 continue;
 
             entity.TryGetComponent<Positioned>(out var entityPos);
@@ -719,6 +719,10 @@ public class WhereAreYouGoing : BaseSettingsPlugin<WhereAreYouGoingSettings>
 
             var pos = entityPos.GridPos;
             var distance = Vector2.Distance(playerPos, pos);
+
+            // Skip if monster is beyond the maximum target range
+            if (distance > Settings.MaxTargetRange.Value)
+                continue;
 
             if (distance < nearestDistance)
             {
@@ -762,7 +766,7 @@ public class WhereAreYouGoing : BaseSettingsPlugin<WhereAreYouGoingSettings>
             return;
 
         // Only move cursor if target is still valid
-        if (!_currentTarget.IsValid || !_currentTarget.IsAlive || !_currentTarget.IsHostile || !_currentTarget.IsTargetable)
+        if (!_currentTarget.IsValid || !_currentTarget.IsAlive || !_currentTarget.IsTargetable)
         {
             _currentTarget = null;
             _currentTargetPosition = null;
@@ -826,8 +830,18 @@ public class WhereAreYouGoing : BaseSettingsPlugin<WhereAreYouGoingSettings>
             var distance = monster.DistancePlayer;
             if (distance < nearestDistance)
             {
-                nearestDistance = distance;
-                nearestMonster = monster;
+                // Check if we have line of sight to this monster
+                bool hasLineOfSight = HasLineOfSight(
+                    (int)monster.GridPos.X, (int)monster.GridPos.Y,
+                    (int)monster.GridPos.X, (int)monster.GridPos.Y,
+                    GameController.IngameState.Data.RawPathfindingData
+                );
+
+                if (hasLineOfSight)
+                {
+                    nearestDistance = distance;
+                    nearestMonster = monster;
+                }
             }
         }
 
