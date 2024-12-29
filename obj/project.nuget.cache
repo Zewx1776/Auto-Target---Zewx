@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i7/c6uk1tE0=",
+  "dgSpecHash": "bfL0v9WTxXg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\WhereAreYouGoing-PoE2-zewx\\WhereAreYouGoing.csproj",
+  "projectFilePath": "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\Auto-Target---Zewx-main\\WhereAreYouGoing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zewx\\.nuget\\packages\\imgui.net\\1.90.0.1\\imgui.net.1.90.0.1.nupkg.sha512",
     "C:\\Users\\Zewx\\.nuget\\packages\\jm.linqfaster\\1.1.2\\jm.linqfaster.1.1.2.nupkg.sha512",

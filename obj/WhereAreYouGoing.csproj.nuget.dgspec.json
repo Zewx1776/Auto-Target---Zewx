@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\WhereAreYouGoing-PoE2-zewx\\WhereAreYouGoing.csproj": {}
+    "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\Auto-Target---Zewx-main\\WhereAreYouGoing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\WhereAreYouGoing-PoE2-zewx\\WhereAreYouGoing.csproj": {
+    "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\Auto-Target---Zewx-main\\WhereAreYouGoing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\WhereAreYouGoing-PoE2-zewx\\WhereAreYouGoing.csproj",
+        "projectUniqueName": "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\Auto-Target---Zewx-main\\WhereAreYouGoing.csproj",
         "projectName": "WhereAreYouGoing",
-        "projectPath": "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\WhereAreYouGoing-PoE2-zewx\\WhereAreYouGoing.csproj",
+        "projectPath": "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\Auto-Target---Zewx-main\\WhereAreYouGoing.csproj",
         "packagesPath": "C:\\Users\\Zewx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\WhereAreYouGoing-PoE2-zewx\\obj\\",
+        "outputPath": "C:\\Users\\Zewx\\Desktop\\ExileCore2_241218-1.0.0+c7bcb65b5f9ae029d9e4f24ef607f20692a3e885\\Plugins\\Source\\Auto-Target---Zewx-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zewx\\AppData\\Roaming\\NuGet\\NuGet.Config"

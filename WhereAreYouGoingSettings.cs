@@ -23,6 +23,7 @@ namespace WhereAreYouGoing
         public ToggleNode MultiThreading { get; set; } = new ToggleNode(false);
         public RangeNode<int> MaxCircleDrawDistance { get; set; } = new RangeNode<int>(120, 0, 200);
         public HotkeyNode TargetNearestEnemyKey { get; set; } = new HotkeyNode(System.Windows.Forms.Keys.F);
+        public RangeNode<int> MaxTargetRange { get; set; } = new RangeNode<int>(200, 0, 500);
 
         // Pathfinding Settings
         public class PathfindingSettings
